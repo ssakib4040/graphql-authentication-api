@@ -1,0 +1,20 @@
+{
+  "name": "node-practise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ssakib4040/socket-io-vite.git",
+  "author": "Sadman Sakib <ssakib4040@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.2.5"
+  }
+}
